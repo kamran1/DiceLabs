@@ -1,15 +1,15 @@
 pipeline {
-agent any
-stages {
-stage('Builds') {
-steps {
+  agent any
+    stages {
+    stage('Builds') {
+    steps {
 //..
-}
-}
-stage ('Test') {
-steps {
+    }
+  }
+   stage ('Tests') {
+     steps {
 //..
-}
-}
-}
+     }
+  }
+ }
 }
